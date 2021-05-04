@@ -1,0 +1,24 @@
+Unidad 1
+Simbolo,datos, procesos de datos e informacion 	(10-16)
+Modelo Von neumman software hardware y firmware	(17-23)(126-127)
+Historia de la computacion			(172-188)
+
+
+Unidad 2	
+Sumas y restas en la ual 						(59-62)(146-159)
+Codificacion ascii de caracteres alfanumericos y unicode		(160-161)
+Estructura y operacion de un modelo didactico de computador binario 	(189-200)
+Codificaciones empleadas en computadoras y perifericos			(201-233)
+Ejecucion paso a paso de las instrucciones en la pc usando el debug 	(42-48)(163-165)(234-238)
+
+Unidad 3
+El software los datos y su codificacion				(36-41)
+Sistemas operativos su lugar y funiones como parte del software	(168-171)
+Hardware del computador 					(17-23)
+El papel de UC y de los Mhz del reloj en la ejecucion...	(49-58)(126-145)
+La memoria principal o central 					(24-35)
+
+Unidad 4
+Entradas y salidas       	(68-105)
+Senales, perifericos y buses	(68-105)
+Detalles de los buses		(114-125)

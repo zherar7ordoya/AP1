@@ -1,0 +1,74 @@
+los primeros 4 dígitos: ubicación de los datos
+los siguientes 4 dígitos: almacenar los datos
+
+DNI = 12345678
+
+PARTE MANUAL (PAPEL):
+
+R = P + Q - T
+
+P = 123
+Q = 456
+T = 78
+
+Convertir P, Q, y T a binario y hexadecimal
+
+P = 123 = ... = 007B
+Q = 
+T = 
+
+Contenido de la memoria
+Tabla de datos
+-----------------
+Dirección | Datos
+-----------------
+1234      | R
+1235      | R
+1236      | P (7B)
+1237      | P (00)
+1238      | Q
+1239      | Q
+123A      | T
+123B      | T
+
+
+AX (16 bits) se divide en :
+AH (alta) guarda los bits más significativos
+AL (baja) guarda los bits menos significativos
+
+Ejemplo: 5C5A
+guardado en dirección de memoria 9876
+9876 guarda 5A
+9877 guarda 5C
+
+
+Contenido de la memoria
+Tabla de instrucciones
+-----------------
+Dirección | Inst
+-----------------
+5678      | A1
+5679      | 36
+567A      | 12
+567B      | 03
+567C      | 06
+567D      | 38
+567E      | 12
+567F      | 2B
+5680      | 06
+5681      | 3A
+5682      | 12
+5683      | A3
+5684      | 34
+5685      | 12
+
+
+
+PARTE EXPERIMENTAL (DEBUG):
+
+Crear archivo con el COPY CON
+Trabajar con el DEBUG
+
+Cargar 007B en 1236
+
+Cargar programa en 5678

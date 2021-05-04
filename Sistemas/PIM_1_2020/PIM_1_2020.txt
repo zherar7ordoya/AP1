@@ -1,0 +1,40 @@
+FLAG DE CARRY
+-------------
+
+Para naturales significa que el sustraendo es mayor que el minuendo.
+
+Por ejemplo:
+	MOV AX,0005  ;Minuendo
+	SUB AX,0007  ;Sustraendo
+En esta resta, se activa el flag de Auxiliary Carry (AC), se activa el flag de Carry (CY) y se activa el flag de signo (NG).
+
+Por ejemplo:
+	MOV AX,000A
+	ADD AX,0005
+En esta suma no se activa el flag de Auxiliary Carry (NA) y no se activa el flag de Carry (NC).
+
+Por ejemplo:
+	MOV AX,000A
+	ADD AX,000A
+En esta suma se activa el flag de Auxiliary Carry (AC) y no se activa el flag de Carry (NC).
+
+Por ejemplo:
+	MOV AL,AA
+	ADD AL,80
+En esta suma no se activa el flag de Auxiliary Carry (NA), se activa el flag de Carry (CY), se activa el flag de Overflow (OV) y se activa el flag de signo (PL).
+
+
+FLAG DE OVERFLOW
+----------------
+
+Si ambos números en la UAL tienen igual signo y el resultado tiene signo contrario.
+
+Por ejemplo:
+	MOV AL,7F
+	ADD AL,03
+En esta suma se activa el flag de Overflow (OV) y el flag de signo negativo (NG).
+
+Por ejemplo:
+	MOV AX,7FFF
+	ADD AX,0003
+En esta suma se activa el flag de overflow (OV) y el flag de signo negativo (NG).

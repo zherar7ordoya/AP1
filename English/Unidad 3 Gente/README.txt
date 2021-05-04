@@ -1,0 +1,1 @@
+En el original, la clase 7 no está.
